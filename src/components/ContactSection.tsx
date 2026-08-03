@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 const ContactSection = () => (
   <section id="kontakt" className="scroll-mt-16 py-14 sm:py-16 lg:py-20">
     <div className="container">
-      <h2 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl">Kontakt</h2>
+      <h2 className="font-display text-3xl italic font-medium tracking-tight text-foreground sm:text-4xl">Kontakt</h2>
       <div className="mt-6 grid gap-8 sm:mt-8 sm:grid-cols-3 sm:gap-6">
         <div className="flex flex-col items-center gap-2 text-center">
           <Mail className="h-6 w-6 text-primary" />
