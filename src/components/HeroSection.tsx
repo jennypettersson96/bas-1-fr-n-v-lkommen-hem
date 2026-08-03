@@ -1,10 +1,11 @@
 const HeroSection = () => (
-  <section className="flex min-h-[70vh] flex-col items-center justify-center bg-primary/5 px-4 text-center">
+  <section className="flex min-h-[70vh] flex-col items-center justify-center bg-accent/40 px-4 py-20 text-center">
     <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-      [Huvudrubrik här]
+      Sömnad och ändringar med känsla för detaljer
     </h1>
-    <p className="mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl">
-      [Underrubrik / kort beskrivning här]
+    <p className="mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg">
+      JP's trådar är en liten sömnadsateljé i Göteborg. Vi syr om, lagar och skapar nytt –
+      med noggrant hantverk och omsorg om varje plagg.
     </p>
     <div className="mt-8">
       <a
