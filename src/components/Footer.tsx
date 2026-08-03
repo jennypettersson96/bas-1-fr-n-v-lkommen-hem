@@ -1,7 +1,7 @@
 const Footer = () => (
-  <footer className="border-t bg-muted/30 py-8">
+  <footer className="border-t bg-secondary/60 py-8">
     <div className="container text-center text-sm text-muted-foreground">
-      <p>&copy; {new Date().getFullYear()} [Företagsnamn]. Alla rättigheter förbehållna.</p>
+      <p>&copy; {new Date().getFullYear()} JP's trådar. Alla rättigheter förbehållna.</p>
     </div>
   </footer>
 );
